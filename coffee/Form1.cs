@@ -22,5 +22,16 @@ namespace coffee
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //checkout here 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //take order and make list
+
+        }
     }
 }
