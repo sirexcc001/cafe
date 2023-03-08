@@ -11,10 +11,16 @@ using System.Windows.Forms;
 namespace coffee
 {
     public partial class Form1 : Form
-    {
+    { 
+        List<Order> order =  new List<Order> ();
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
